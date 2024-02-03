@@ -9,7 +9,7 @@ Part 1: Multi-Net Dual WAN
 2 OpenWRT Routers
 3 Ethernet Cables
 
-- Flash Create 1 network on each router with different netmask and segment
+- First Create 1 network on each router with different netmask and segment
     - Example
               192.168.5.1/24
               192.168.6.1/24to factory defaults
