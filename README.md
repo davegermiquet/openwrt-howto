@@ -125,7 +125,7 @@ Setup Avahi on Home networt:
 vi /etc/avahi/avahi-daemon.conf
 
 put contents:
-`[server]
+```[server]
 use-ipv4=yes
 use-ipv6=no
 check-response-ttl=no
@@ -147,7 +147,7 @@ rlimit-data=4194304
 rlimit-fsize=0
 rlimit-nofile=30
 rlimit-stack=4194304
-rlimit-nproc=3`
+rlimit-nproc=3```
 # 
 repeat:
 
