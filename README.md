@@ -49,19 +49,20 @@ From now on I'll name the router HomeNetwork, and InternetOfThings
 
 4. Install the necessary modules on both routers:
          - System -> Software -> CLick on update lists
-            -mwan3
-            -luci-app-mwan3
-            -Avahi-utils 
-            -avahi-dbus 
-            -openvpn-ssl
-            -luci-app-openvpn
+            - mwan3
+            - luci-app-mwan3
+            - Avahi-utils 
+            - avahi-dbus 
+            - openvpn-ssl
+            - luci-app-openvpn
+            - mdns-repeater
 
             Only on internetofthings install this:
 
             - smcroute
 
             
-5.  Setup one port to be segregated to hook the 2 networks up:
+6.  Setup one port to be segregated to hook the 2 networks up:
 
     On InternetOfThings go to the following:
 
@@ -78,7 +79,7 @@ From now on I'll name the router HomeNetwork, and InternetOfThings
     - add LAN1  make sure it has a different mac addresses
 
 
-6. Create firewall On InternetOfThings
+7. Create firewall On InternetOfThings
 
 Network -> Firewall -> Add
 
