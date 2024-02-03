@@ -1,7 +1,6 @@
+Part 1: Multi-Net Dual WAN With ChromeCast and Shared devices on a separate network
+
 Equipment:
-
-
-Part 1: Multi-Net Dual WAN
 
 
 1 WAN Ethernet Router with 2 Ethernet Ports or 2 WAN Connections
