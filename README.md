@@ -1,12 +1,12 @@
-Part 1: Multi-Net Dual WAN With ChromeCast and Shared devices on a separate network
+# Part 1: Multi-Net Dual WAN With ChromeCast and Shared devices on a separate network
 
-Equipment:
+## Equipment:
 
 
-1 WAN Ethernet Router with 2 Ethernet Ports or 2 WAN Connections
+### 1 WAN Ethernet Router with 2 Ethernet Ports or 2 WAN Connections
 
-2 OpenWRT Routers
-3 Ethernet Cables
+### 2 OpenWRT Routers
+### 3 Ethernet Cables
 
 - First Create 1 network on each router with different netmask and segment
     - Example
@@ -125,7 +125,7 @@ Setup Avahi on Home networt:
 vi /etc/avahi/avahi-daemon.conf
 
 put contents:
-
+`
 [server]
 use-ipv4=yes
 use-ipv6=no
@@ -149,7 +149,7 @@ rlimit-fsize=0
 rlimit-nofile=30
 rlimit-stack=4194304
 rlimit-nproc=3
-
+`
 # 
 repeat:
 
@@ -170,14 +170,14 @@ iptables -t mangle -A PREROUTING -i lan1  -d 239.255.255.250 -j TTL --ttl-inc 1
 
 edit /etc/smcroute.conf
 and put these contents:
-
+`
 phyint br-lan enable
 phyint lan1 enable 
 mgroup from br-lan group 239.255.255.250
 mgroup from lan1 group 239.255.255.250
 mroute from br-lan group 239.255.255.250 to lan1
 mroute from lan1 group 239.255.255.250 to br-lan
-
+`
 
 
 -- You should now have 2 internel networks, 2 wans and chromecast and shared things work:
