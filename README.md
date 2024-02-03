@@ -147,8 +147,9 @@ rlimit-data=4194304
 rlimit-fsize=0
 rlimit-nofile=30
 rlimit-stack=4194304
-rlimit-nproc=3```
-# 
+rlimit-nproc=3
+```
+
 repeat:
 
 192.168.6.1:
@@ -168,14 +169,14 @@ iptables -t mangle -A PREROUTING -i lan1  -d 239.255.255.250 -j TTL --ttl-inc 1
 
 edit /etc/smcroute.conf
 and put these contents:
-`
+```
 phyint br-lan enable
 phyint lan1 enable 
 mgroup from br-lan group 239.255.255.250
 mgroup from lan1 group 239.255.255.250
 mroute from br-lan group 239.255.255.250 to lan1
 mroute from lan1 group 239.255.255.250 to br-lan
-`
+```
 
 
 -- You should now have 2 internel networks, 2 wans and chromecast and shared things work:
