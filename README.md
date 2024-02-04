@@ -55,6 +55,7 @@ From now on I'll name the router HomeNetwork, and InternetOfThings
             - openvpn-ssl
             - luci-app-openvpn
             - mdns-repeater
+            - iptables-nft 
 
             Only on internetofthings install this:
 
