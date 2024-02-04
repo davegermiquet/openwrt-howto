@@ -149,3 +149,6 @@ put it to tun_only instead of WAN
 
 - If you dont try restarting the VPN connection it takes a few 
 seconds to take effect
+
+YouTube walk through:
+https://studio.youtube.com/video/Ic0HgrnzU84/edit
