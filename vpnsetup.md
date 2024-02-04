@@ -22,6 +22,10 @@ If you didn't watch our second video please install these modules:
 - openvpn-ssl
 - luci-app-openvpn
 
+  22.03+
+
+  - iptables-nft
+
 
 ### Step 1
 
