@@ -134,12 +134,15 @@ Tun0 should be green
 - enable masquerading
 - save and apply
 
+## Step 5 Testing!!
+
 
 - select Network->MultiWan Manager
 - Select Rules
 - edit an existing rule to make sure its working
 - For example HTTP:
-put it to tun_only
+put it to tun_only instead of WAN
+
 - Go to web and put whats my IP addresses
 - should see vpn address under whats my iptables
 
