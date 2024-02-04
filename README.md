@@ -155,17 +155,18 @@ repeat:
 192.168.6.1:
 
 Homenetwork:
-
+```
 iptables -t mangle -A PREROUTING -i br-lan -d 239.255.255.250 -j TTL --ttl-inc 1
-
+```
 
 
 (internetofthings)
 
 ssh -l root 192.168.6.1 
-
+```
 iptables -t mangle -A PREROUTING -i br-lan -d 239.255.255.250 -j TTL --ttl-inc 1
 iptables -t mangle -A PREROUTING -i lan1  -d 239.255.255.250 -j TTL --ttl-inc 1
+```
 
 edit /etc/smcroute.conf
 and put these contents:
