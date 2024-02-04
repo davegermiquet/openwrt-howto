@@ -1,6 +1,6 @@
-# VPN / WAN3 / Routing
+# VPN / MWAN3 / Routing
 
-## Installing a VPN with MPWAN3, and Guest Network Only and Specific IPS / Devices:
+## Installing a VPN with MWAN3, and Guest Network Only and Specific IPS / Devices:
 
 
 Requirements:
