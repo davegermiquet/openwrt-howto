@@ -43,13 +43,14 @@ If you didn't watch our second video please install these modules:
 
 
 - Change the following lines:
+- Replace /etc/openvpn/FreeProtonVPN.auth with the location its showing at the bottom
+
 
 ```
 dev tun -> dev tun0
 auth-user-pass -> auth-user-pass /etc/openvpn/FreeProtonVPN.auth
 ```
 
-Replace /etc/openvpn/FreeProtonVPN.auth with the location its showing at the bottom
 
 - add these 2 lines right above the ca-certificates:
 
