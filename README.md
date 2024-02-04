@@ -207,6 +207,11 @@ Now Log on to HomeNetwork:
 
 And you can chomecast and other things to ther internal network
 
+YouTube LINK on How To:
+
+https://www.youtube.com/watch?v=NAYHcvMMFb0&t=684s
+
+
 Part 2:
 
 VPN and Guest Network:
