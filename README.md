@@ -127,7 +127,7 @@ vi /etc/avahi/avahi-daemon.conf
 put contents:
 ```[server]
 use-ipv4=yes
-use-ipv6=no
+use-ipv6=yes
 check-response-ttl=no
 use-iff-running=no
 
