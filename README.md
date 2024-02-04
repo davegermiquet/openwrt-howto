@@ -207,8 +207,6 @@ Now Log on to HomeNetwork:
 
 And you can chomecast and other things to ther internal network
 
-disable ipv6:
-
 Part 2:
 
 VPN and Guest Network:
